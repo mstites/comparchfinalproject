@@ -18,7 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--main-txt-color);
+  color: var(--bold-bg-color);
   font-weight: 600;
 }
 
