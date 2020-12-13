@@ -22,7 +22,7 @@
 
   gtag('config', 'UA-106734336-4');
   </script>
-  </head>
+</head>
 
 <body>
   <div class="header">
@@ -42,42 +42,22 @@
   <div class="container">
     <div class="row top">
       <h1> Contributing </h1>
-      <p>
-        <!--- <h2>How can someone else build on it? (TODO: remove question)</h2>
-
-        Include everything necessary to pick up where you left off. This should include (as appropriate):
-        <ul>
-            <li>code</li>
-            <li>schematics</li>
-            <li>scripts and build instructions</li>
-            <li>proper attribution for resources used and anything you did not write yourself</li>
-            <li>list of difficulties and ‘gotchas’ while doing this project</li>
-            <li>reflection on the project as a whole as well as your work plan</li>
-            <li>possible TODOs to extend the depth of the project</li>
-        </ul>
-        --->
-      For those interested in contributing, here is how you can pick up where we left off.
-      </p>
-      <p>
-        <b>Resources to get started (Also avaiable on Notion):</b>
-        <ol>
-          <li><a href="https://www.notion.so/Machine-Learning-Code-8c6b9754d8d5430eb9250910ff2e1e63">Code used in tests</a></li>
-          <li><a href="https://www.notion.so/Testing-Methodology-Results-1987b1fcaa42487c910a840dedce0881">Test instructions/methodology</a></li>
-          <li><a href="https://www.notion.so/Troubleshoooting-Journal-299569dae9a445bc9b3d23adbe3a2848">Known problems</a></li>
-        </ol>
-      </p>
-      <p>
-        There are many different avenues that we could have explored further in our project.
-        If you are interested, these are some of the paths we would have explored more
-        if given the time.
-        <ol>
-          <li>Testing more Machine Learning algorithms, or different algorithms beyond Machine Learning</li>
-          <li>Trying OpenCL and OpenGL, rather than just sticking with CUDA</li>
-          <li>Making our own CUDA-supported algorithms in C or C++</li>
-        </ol>
-      </p>
+      <p>For those interested in contributing, there are a number of things we wanted to look into if we had the time:</p>
+      <ol>
+        <li>Testing the kmeans pytorch <a href="https://github.com/subhadarship/kmeans_pytorch/blob/master/cpu_vs_gpu.ipynb">CPU vs GPU test code</a> on a fresh Manjaro install with Nvidia proprietary drivers to verify consistent results.</li>
+        <li>Test other algorithims. We only used the kmeans pytorch example code. There are lots of other machine learning tests and also lots of CUDA acceleratable workloads outside of machine learning.</li>
+        <li>Testing OpenCL and OpenGL and investigating the performance and implementation quirks when compared to CUDA.</li>
+        <li>Testing CUDA algorithism in C or C++.</li>
+      </ol>
     </div>
-    <div class="row">
+    <div class="row linkList">
+      <h2> Resources and References</h2>
+      <ul>
+        <li><a href="https://www.notion.so/Machine-Learning-Code-8c6b9754d8d5430eb9250910ff2e1e63">Test Code</a></li><p>Kmeans pytorch test code used for gathering our results so you can run the same tests on your own system.</p>
+        <li><a href="https://www.notion.so/Testing-Methodology-Results-1987b1fcaa42487c910a840dedce0881">Test Methodology</a></li><p>Testing conditiong and monitoring information.
+        <li><a href="https://www.notion.so/Troubleshoooting-Journal-299569dae9a445bc9b3d23adbe3a2848">Troubleshooting Journal</a></li><p>Notes taken while testing and troubleshooting strange Manjaro results through Ubuntu results.</p>
+      </ul>
+    </div>
     </div>
     <div class="row">
       <div class="footer">
